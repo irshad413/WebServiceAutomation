@@ -1,0 +1,33 @@
+{
+   "totalRecords": 1,
+   "records": [   {
+      "self": "/api/v1/vehicleRegistration/registrationDemands/132781",
+      "plateNumber": "1AA1BI",
+      "expiryDate": "2017-07-30",
+      "vehicle":       {
+         "bodyType": "SED",
+         "make": "FORD",
+         "colour": "RED"
+      },
+      "demand":       {
+         "DemandID": "132781",
+         "amounts":          [
+                        {
+               "amount": 284.70,
+               "type": "RegFeeAmount"
+            },
+                        {
+               "amount": 0,
+               "type": "AdminFeeAmount"
+            },
+                        {
+               "amount": 502.70,
+               "type": "TACFeeAmount"
+            },
+                        {
+               "amount": 0,
+               "type": "STRServiceFeeAmount"
+            }]
+            }
+            }]
+            }

@@ -1,0 +1,52 @@
+<s:Envelope xmlns:s="http://www.w3.org/2003/05/soap-envelope" xmlns:a="http://www.w3.org/2005/08/addressing">;
+  <s:Header>
+    <a:Action s:mustUnderstand="1">http://www.vicroads.vic.gov.au/2017/04/IPFD_CF_Service/RetrieveRegistrationRenewalResponse</a:Action>;
+  </s:Header>
+  <s:Body>
+    <RetrieveRegistrationRenewalResponse xmlns="http://www.vicroads.vic.gov.au/2017/04">;
+      <RetrieveRegistrationRenewalResult xmlns:b="http://schemas.datacontract.org/2004/07/PFD_ClientFacing_Service" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">;
+        <b:RegSerialNum>1152</b:RegSerialNum>
+        <b:RegPlateNum>1AA1BI</b:RegPlateNum>
+        <b:VehClassCode>CarAndTruck</b:VehClassCode>
+        <b:VehMakeCode>FORD</b:VehMakeCode>
+        <b:VehMakeDesc>FORD</b:VehMakeDesc>
+        <b:VehModelCode>COBRA</b:VehModelCode>
+        <b:VehPrimColourCode>RED</b:VehPrimColourCode>
+        <b:VehPrimColourDesc>RED</b:VehPrimColourDesc>
+        <b:VehBodyTypeCode>SED</b:VehBodyTypeCode>
+        <b:VehBodyTypeDesc>SEDAN - CAR WITH BOOT / HATCH</b:VehBodyTypeDesc>
+        <b:YearOfManufacture>2015</b:YearOfManufacture>
+        <b:CurRegEndDate>30072017</b:CurRegEndDate>
+        <b:NewRegEndDate>30072018</b:NewRegEndDate>
+        <b:DemandID>132781</b:DemandID>
+        <b:CPMTxnType>130</b:CPMTxnType>
+        <b:RegRateCode>VL</b:RegRateCode>
+        <b:RegRateDesc>LIGHT VEHICLE : GVM 4,500KG OR LESS</b:RegRateDesc>
+        <b:TotalAmount>787.40</b:TotalAmount>
+        <b:RegPeriodIndicator>A</b:RegPeriodIndicator>
+        <b:Amounts>
+          <b:Amount>
+            <b:AmountValue>284.70</b:AmountValue>
+            <b:Type>RegFeeAmount</b:Type>
+          </b:Amount>
+          <b:Amount>
+            <b:AmountValue>0</b:AmountValue>
+            <b:Type>AdminFeeAmount</b:Type>
+          </b:Amount>
+          <b:Amount>
+            <b:AmountValue>502.70</b:AmountValue>
+            <b:Type>TACFeeAmount</b:Type>
+          </b:Amount>
+          <b:Amount>
+            <b:AmountValue>0</b:AmountValue>
+            <b:Type>STRServiceFeeAmount</b:Type>
+          </b:Amount>
+          <b:Amount>
+            <b:AmountValue>0</b:AmountValue>
+            <b:Type>PaperBillFeeAmount</b:Type>
+          </b:Amount>
+        </b:Amounts>
+      </RetrieveRegistrationRenewalResult>
+    </RetrieveRegistrationRenewalResponse>
+  </s:Body>
+</s:Envelope>
